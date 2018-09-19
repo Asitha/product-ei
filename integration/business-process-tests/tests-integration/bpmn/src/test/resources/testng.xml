@@ -29,22 +29,24 @@
     </listeners>
 
     <!-- HumanTask TestCases -->
-    <test name="BPMN Basic Test Cases" preserve-order="true" verbose="2" parallel="false">
-        <classes>
-            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestDeploymentsTestCase" />
-            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestProcessInstancesTest" />
-            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestExecutionTest" />
-        </classes>
-    </test>
+    <!--<test name="BPMN Basic Test Cases" preserve-order="true" verbose="2" parallel="false">-->
+        <!--<classes>-->
+            <!--<class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestDeploymentsTestCase" />-->
+            <!--<class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestProcessInstancesTest" />-->
+            <!--<class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestExecutionTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
 
-    <test name="BPMN Basic Variable related Test Cases" preserve-order="true" verbose="2" parallel="false">
-        <classes>
-            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestVariableTestCase"/>
-        </classes>
-    </test>
+    <!--<test name="BPMN Basic Variable related Test Cases" preserve-order="true" verbose="2" parallel="false">-->
+        <!--<classes>-->
+            <!--<class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestVariableTestCase"/>-->
+        <!--</classes>-->
+    <!--</test>-->
     <test name="BPMN User substitution related Test Cases" preserve-order="true" verbose="2" parallel="false">
         <classes>
             <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.BPMNUserSubstitutionTestCase"/>
+            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestVariableTestCase"/>
+            <class name="org.wso2.ei.businessprocess.integration.tests.bpmn.rest.BPMNRestDeploymentsTestCase"/>
         </classes>
     </test>
 

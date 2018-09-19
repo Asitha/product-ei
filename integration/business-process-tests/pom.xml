@@ -42,6 +42,6 @@
     <modules>
         <module>tests-common</module>
         <module>tests-integration</module>
-        <module>tests-patches</module>
+        <!--<module>tests-patches</module>-->
     </modules>
 </project>

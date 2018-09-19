@@ -10,11 +10,11 @@
         <listener class-name="org.wso2.carbon.automation.engine.testlisteners.TestTransformerListener"/>
     </listeners>
 
-    <test name="bps-integration-tests-server-mgt" preserve-order="true" parallel="false">
-        <classes>
-            <class name="org.wso2.ei.businessprocess.integration.tests.server.mgt.BPSServerStartupTestCase"/>
-            <!--<class name="OSGIServerBundleStatusTestCase"/>-->
-        </classes>
-    </test>
+    <!--<test name="bps-integration-tests-server-mgt" preserve-order="true" parallel="false">-->
+        <!--<classes>-->
+            <!--<class name="org.wso2.ei.businessprocess.integration.tests.server.mgt.BPSServerStartupTestCase"/>-->
+            <!--&lt;!&ndash;<class name="OSGIServerBundleStatusTestCase"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>
